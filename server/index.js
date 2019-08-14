@@ -19,7 +19,7 @@ passport.use(
 );
 
 app.get('/', (req, res) => {
-    res.send({Status: Ok});
+    res.send({Status: 'Ok'});
 });
 
 app.get(
